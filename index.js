@@ -20,7 +20,7 @@ app.get('/api/available-countries', async (req, res) => {
 
 
 //get country info
-app.get('/api/country-info/:countryCode', async (req, res) => {
+app.get('/api/countryinfopage/:countryCode', async (req, res) => {
     const { countryCode } = req.params;
  
     try {
